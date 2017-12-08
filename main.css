@@ -6,10 +6,19 @@ body {
   font-family: "Josefin Sans";
 }
 
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 7px 0px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.42857;
+}
+
 #section1 {
   padding-top: 50px;
   height: 700px;
-  color: #000;
   background: #8d6e63 url("https://images.unsplash.com/photo-1508873787497-1b513a18217a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=88d98615e7b18aa801e127d421f2db72") no-repeat center bottom fixed;
   background-size: cover;
 }
@@ -17,20 +26,13 @@ body {
 #section2 {
   padding-top: 50px;
   min-height: 600px;
-  background: #26c6da url("https://static.pexels.com/photos/442577/pexels-photo-442577.jpeg") no-repeat center center fixed;
+  background: #fbe9e7 url("https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
 #section3 {
   padding-top: 50px;
-  height: 600px;
-  background: #fbe9e7 url("https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-#section4 {
-  padding-top: 50px;
-  height: 600px;
+  padding-bottom: 250px;
   background: #f5f5f5 url("https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -49,8 +51,7 @@ body {
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
   #section1,
   #section2,
-  #section3,
-  #section4 {
+  #section3 {
     background-attachment: scroll;
   }
 }
@@ -60,8 +61,7 @@ body {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   #section1,
   #section2,
-  #section3,
-  #section4 {
+  #section3 {
     background-attachment: scroll;
   }
 }
@@ -71,8 +71,7 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   #section1,
   #section2,
-  #section3,
-  #section4 {
+  #section3 {
     background-attachment: scroll;
   }
 }
@@ -82,8 +81,7 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #section1,
   #section2,
-  #section3,
-  #section4 {
+  #section3 {
     background-attachment: scroll;
   }
 }
