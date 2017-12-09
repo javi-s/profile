@@ -96,40 +96,52 @@
     <h1 class="text-center logofont">Contact</h1>
     <form class="form-horizontal" method="post">
       <fieldset>
-        <div class="form-group">
+        <div class="form-group material-form-group">
           <div class="row">
             <span class="col-xs-1 col-xs-offset-1 text-center"><i class="fa fa-user" style="font-size: 35px"></i></span>
-            <div class="col-xs-8 col-md-7">
-              <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+            <div class="col-xs-8 col-md-5">
+              <input id="name" name="name" type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Name</label>
             </div>
           </div>
         </div>
-        <div class="form-group">
+        <div class="form-group material-form-group">
           <div class="row">
             <span class="col-xs-1 col-xs-offset-1 text-center"><i class="fa fa-envelope-o" style="font-size: 35px"></i></span>
-            <div class="col-xs-8 col-md-7">
-              <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+            <div class="col-xs-8 col-md-5">
+              <input id="email" name="email" type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Email Address</label>
             </div>
           </div>
         </div>
-        <div class="form-group">
+        <div class="form-group material-form-group">
           <div class="row">
             <span class="col-xs-1 col-xs-offset-1 text-center"><i class="fa fa-phone-square" style="font-size: 35px"></i></span>
-            <div class="col-xs-8 col-md-7">
-              <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+            <div class="col-xs-8 col-md-5">
+              <input id="phone" name="phone" type="text" required>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Phone</label>
             </div>
           </div>
         </div>
-        <div class="form-group">
+        <div class="form-group material-form-group">
           <div class="row">
             <span class="col-xs-1 col-xs-offset-1 text-center"><i class="fa fa-pencil-square-o" style="font-size: 35px"></i></span>
-            <div class="col-xs-8 col-md-7">
-              <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
+            <div class="col-xs-8 col-md-5">
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Message</label>
             </div>
           </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group material-form-group">
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2 col-md-7 text-center">
               <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
@@ -160,6 +172,7 @@
         $(this).collapse('hide');
       }
     });
+
   </script>
 
 </body>
